@@ -5,10 +5,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.topbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.625rem 0;
-    font-size: .875rem;
+.top-bar-bg {
+    background-color: rgb(216, 8, 140);
+    ;
+}
+
+.top-bar-text-color {
+    color: rgb(255, 230, 0);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(216, 8, 140);
 }

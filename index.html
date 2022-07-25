@@ -16,11 +16,62 @@
 
 <body>
     <!-- Top bar -->
-    <div class="top-bar bg-dark">
-        <div class="container-fluid">
+    <div class="container-fluid h-50">
+        <div class="row d-flex justify-content-between align-items-center top-bar-text-color top-bar-bg">
 
+            <!-- Customer care number -->
+            <div class="col-md-4 d-flex justify-content-center p-2">
+                <i class="fa-solid fa-headset px-2 mt-1 text-white"></i>
+                <span class="pe-1">Support</span>
+                <a class="text-decoration-none text-white" href="tel:00331697720">(00)33 169 7720</a>
+            </div>
+
+            <!-- Text slideshow/carousel -->
+            <div class="col-md-4 d-flex justify-content-center">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <span>Free shipping for order over $200</span>
+                        </div>
+                        <div class="carousel-item">
+                            <span>Friendly 24/7 customer support</span>
+                        </div>
+                        <div class="carousel-item">
+                            <span>We return money within 30 days</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order track -->
+            <div class="col-md-4 d-flex justify-content-center py-2">
+                <a class="d-inline-block text-decoration-none" href="#">
+                    <i class="fa-solid fa-location-dot px-1 text-white"></i>
+                    <span class="top-bar-text-color">Order tracking</span>
+                </a>
+                <div class="nav-item dropdown ps-3">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        $ USD
+                    </a>
+                    <ul class="dropdown-menu top-bar-bg">
+                        <li>
+                            <a class="dropdown-item top-bar-text-color" href="#">
+                                € EURO
+                            </a>
+                        </li>
+                        <hr class="dropdown-divider top-bar-bg">
+                        <li>
+                            <a class="dropdown-item top-bar-text-color" href="#">
+                                £ POUND
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
+
     <!-- Nav bar -->
     <nav class="navbar navbar-expand-lg py-4 my-2">
         <div class="container">
