@@ -4,3 +4,11 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem 0;
+    font-size: .875rem;
+}
