@@ -17,3 +17,11 @@ body {
 .dropdown-item:hover {
     background-color: rgb(216, 8, 140);
 }
+
+.menu-text-color {
+    color: rgb(216, 8, 140);
+}
+
+.icon-color {
+    color: rgba(0, 0, 0, 0.652)
+}
