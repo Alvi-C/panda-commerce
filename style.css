@@ -21,3 +21,7 @@ body {
 .menu-text-color {
     color: rgb(216, 8, 140);
 }
+
+.icon-color {
+    color: lightgrey;
+}
